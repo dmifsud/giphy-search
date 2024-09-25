@@ -1,0 +1,20 @@
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    padding: 100% 0 0 0;
+    overflow: hidden;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.imageContainer:hover {
+    opacity: 0.5;
+}

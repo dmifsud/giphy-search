@@ -1,0 +1,129 @@
+/* NOTE: this is mostly generated for a quick css style */
+
+.FormContainer {
+    position: sticky;
+    top: 0;
+    z-index: 9000;
+    background: linear-gradient(to bottom, white 80%, rgba(255, 255, 255, 0) 100%);
+}
+
+.ErrorContainer {
+    background-color: #ffd2d2;
+    border: 1px solid #720707;
+    border-radius: 8px;
+    color: #720707;
+}
+
+.FormContainer, .LoadMoreContainer, .ErrorContainer {
+    padding: 40px
+}
+
+.Form {
+    max-width: 28rem; /* equivalent to max-w-md */
+    margin: 0 auto; /* equivalent to mx-auto */
+}
+
+.FormLabel {
+    margin-bottom: 0.5rem; /* equivalent to mb-2 */
+    font-size: 0.875rem; /* equivalent to text-sm */
+    font-weight: 500; /* equivalent to font-medium */
+    color: #1f2937; /* equivalent to text-gray-900 */
+    display: none; /* equivalent to sr-only */
+}
+
+
+.RelativeContainer {
+    position: relative;
+}
+
+.IconContainer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0; /* equivalent to start-0 */
+    display: flex;
+    align-items: center;
+    padding-left: 0.75rem; /* equivalent to ps-3 */
+    pointer-events: none;
+}
+
+.SearchIcon {
+    width: 1rem; /* equivalent to w-4 */
+    height: 1rem; /* equivalent to h-4 */
+    color: #6b7280; /* equivalent to text-gray-500 */
+}
+
+.SearchInput {
+    display: block;
+    width: 100%; /* equivalent to w-full */
+    padding: 1rem 0.75rem 1rem 2.5rem; /* equivalent to p-4 ps-10 */
+    font-size: 0.875rem; /* equivalent to text-sm */
+    color: #111827; /* equivalent to text-gray-900 */
+    border: 1px solid #d1d5db; /* equivalent to border-gray-300 */
+    border-radius: 0.5rem; /* equivalent to rounded-lg */
+    background-color: #f9fafb; /* equivalent to bg-gray-50 */
+    outline: none;
+}
+
+.SearchInput:focus {
+    border-color: #3b82f6; /* equivalent to focus:border-blue-500 */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* equivalent to focus:ring-blue-500 */
+}
+
+.SearchButton {
+    position: absolute;
+    right: 0.625rem; /* equivalent to end-2.5 */
+    bottom: 0.625rem; /* equivalent to bottom-2.5 */
+    background-color: #1d4ed8; /* equivalent to bg-blue-700 */
+    color: white;
+    font-weight: 500; /* equivalent to font-medium */
+    font-size: 0.875rem; /* equivalent to text-sm */
+    padding: 0.5rem 1rem; /* equivalent to px-4 py-2 */
+    border-radius: 0.5rem; /* equivalent to rounded-lg */
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.SearchButton:hover {
+    background-color: #1e40af; /* equivalent to hover:bg-blue-800 */
+}
+
+.SearchButton:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* equivalent to focus:ring-4 focus:ring-blue-300 */
+}
+
+
+.SkeletonContainer {
+    width: 100%;
+    min-height: 0;
+    position: relative;
+    padding-top: 100%;
+}
+
+.SkeletonContainer br {
+    display: none;
+}
+
+.GiphySkeleton {
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+}
+
+.NextButton {
+        right: 0.625rem; /* equivalent to end-2.5 */
+        bottom: 0.625rem; /* equivalent to bottom-2.5 */
+        background-color: #1d4ed8; /* equivalent to bg-blue-700 */
+        color: white;
+        font-weight: 500; /* equivalent to font-medium */
+        font-size: 0.875rem; /* equivalent to text-sm */
+        padding: 0.5rem 1rem; /* equivalent to px-4 py-2 */
+        border-radius: 0.5rem; /* equivalent to rounded-lg */
+        cursor: pointer;
+        outline: none;
+        border: none;
+}
